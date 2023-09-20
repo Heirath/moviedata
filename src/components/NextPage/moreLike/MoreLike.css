@@ -1,0 +1,41 @@
+.like-main{
+    margin: 5rem 4rem;
+}
+.like-movis{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.like-movis img{
+  width: 24.5rem;
+  cursor: pointer;
+}
+.like-movis img:hover{
+
+  transform:  scale(1.02) ;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+  .like-main{
+    margin: 3rem 1.5rem;
+}
+.like-movis{
+   
+    gap: 1rem;
+}
+.like-movis img{
+  width: 14rem;
+  cursor: pointer;
+}
+
+  
+  }
+  
+@media only screen and (max-width: 600px) {
+
+  .like-movis img{
+    width: 20rem;
+    
+  }
+}

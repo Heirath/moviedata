@@ -1,0 +1,99 @@
+
+/* banner */
+
+section{
+    height: 40vh;
+    width: 100vw;
+    padding-top: 80px;
+    
+    
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.container{
+    width: 80vw;
+    height: auto;
+    margin: 0rem 3rem;
+    
+   padding-top: 2rem;
+    color: rgb(251, 250, 249);
+
+}
+.banner{
+    width: 45vw;
+}
+.blank{
+    width: 65vw;
+}
+
+.banner h1{
+    font-size: 3rem;
+}
+.banner p{
+    
+    font-size: 1rem;
+}
+
+
+
+    .play-btn{
+        margin: .5rem;
+        padding: .4rem 1.3rem;
+        font-weight: 300;
+        
+        border:none;
+        background-color: #1111118d;
+        color: rgb(248, 247, 245);
+        border-radius: .3rem;
+    }
+    .play-btn:hover{
+        background-color: #131313f0;
+        transform: scale(1.09) ;
+
+    }
+    @media only screen and (max-width: 600px) {
+        .banner h1{
+            font-size: 2rem;
+        }
+        .banner p{
+            
+            font-size: .8rem;
+        }
+      
+        .banner{
+            width: 60vw;
+        }
+        .container{
+           
+            margin: 0rem 1.5rem;
+            
+           padding-top: 1rem;
+           
+        
+        }
+        .banner{
+            width: 75vw;
+        }
+        
+        
+
+
+        }
+        @media only screen and (max-width: 400px) {
+            .container{
+                width: 90vw;
+               
+            
+            }
+            .banner{
+                width: 75vw;
+            }
+        }

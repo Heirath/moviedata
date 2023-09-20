@@ -1,0 +1,214 @@
+.hero-sec {
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.hero-sec {
+  display: flex;
+  width: 100vw;
+}
+.righ-div {
+  background-image: linear-gradient(
+    to right,
+    rgb(31, 31, 31) 10%,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0)
+  );
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 14rem 0rem 0rem 3rem;
+}
+
+.shadow-main {
+  position: absolute;
+  bottom: 0rem;
+  left: 30%;
+  height: 3.5rem;
+  width: 70%;
+  background-image: linear-gradient(
+    to top,
+    rgb(31, 31, 31) 10%,
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+  );
+}
+.righ-div h1 {
+  max-width: 70vw;
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.righ-div a {
+  color: gray;
+  text-decoration: none;
+}
+.righ-div a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.about {
+  max-width: 40vw;
+  font-size: 0.9rem;
+  margin: 1rem;
+  font-weight: 100;
+}
+.starring {
+  font-size: 0.8rem;
+  color: gray;
+  margin: 1rem;
+}
+.star {
+  font-size: 0.9rem;
+  color: white;
+}
+.details {
+  font-size: 0.8rem;
+  color: gray;
+  margin: 1rem;
+}
+
+/** join */
+
+.join-div {
+  position: absolute;
+  bottom: -1rem;
+  right: 4.3rem;
+  height: 3.5rem;
+  width: 90%;
+  padding: 1rem;
+  background-color: rgb(45, 44, 44);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  box-shadow: 7px 7px 7px 0px rgb(11, 11, 11, 1);
+}
+.right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.join-div img {
+  height: 3.3rem;
+}
+.join-div button {
+  background-color: rgb(255, 145, 0);
+  border-color: rgb(255, 145, 0);
+  color: white;
+}
+.join-div h4 {
+  font-size: 0.8rem;
+}
+.join-div h1 {
+  color:rgb(255, 145, 0) ;
+  margin: 0rem 1rem;
+  font-weight: 900;
+
+}
+.join-div span{
+  color: white;
+}
+
+
+/** line */
+center {
+  width: 90%;
+  margin: auto;
+}
+.line1 {
+  height: 1px;
+  background-color: gray;
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+.line2 {
+  height: 1px;
+  background-color: gray;
+  margin: 0rem 0rem 5rem 0rem;
+}
+center p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  max-width: 40vw;
+  margin: 1rem;
+  color: gray;
+}
+@media only screen and (max-width: 600px) {
+  .hero-sec {
+    background-position: center;
+  }
+
+  .righ-div {
+    background-image: linear-gradient(
+      to right,
+      rgb(31, 31, 31) 20%,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0)
+    );
+    padding: 14rem 0rem 0rem 1.5rem;
+  }
+
+  .righ-div h1 {
+    max-width: 70vw;
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+  .righ-div a {
+    color: gray;
+    text-decoration: none;
+    font-size: 0.7rem;
+  }
+
+  .about {
+    max-width: 60vw;
+    font-size: 0.7rem;
+  }
+  .starring {
+    font-size: 0.7rem;
+  }
+  .star {
+    font-size: 0.7rem;
+  }
+
+  .details {
+    font-size: 0.7rem;
+  }
+
+  center p {
+    font-weight: 400;
+    font-size: 0.6rem;
+    max-width: 60vw;
+  }
+  /** join */
+
+  .join-div {
+    bottom: -1rem;
+    right: 2rem;
+    height: 3rem;
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .join-div img {
+    height: 2.5rem;
+  }
+
+  .join-div h4 {
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-sec {
+    height: 90vh;
+  }
+  .join-div {
+    right: 1rem;
+  }
+}

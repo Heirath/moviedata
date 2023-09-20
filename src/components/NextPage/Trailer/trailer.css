@@ -1,0 +1,25 @@
+.youtube-container{
+    padding: 5rem 4rem; 
+}
+
+.trailers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 9rem;
+}
+.vdo-row p{
+    max-width: 30rem;
+}
+@media only screen and (max-width: 600px) {
+    .youtube-container{
+        padding: 1rem 1.5rem; 
+    }
+    .youtube-container h1{
+font-size: 1.7rem;
+    }
+
+   
+   
+   
+  
+        }

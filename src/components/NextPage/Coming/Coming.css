@@ -1,0 +1,39 @@
+
+.coming-main {
+    padding: 2rem 4rem;
+  }
+  a{
+    color: white ;
+    font-weight: 600;
+  }
+  .contont-p{
+    font-weight: 300;
+    font-size: .80rem;
+    color: rgb(163, 159, 159);
+  }
+.coming-sec{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.contonts{
+    width: 28vw;
+}
+@media only screen and (max-width: 600px) {
+  .coming-main {
+    padding: 3rem 1.5rem;
+  }
+ 
+  .contont-p{
+   
+    font-size: .7rem;
+    
+  }
+.coming-sec{
+    
+   
+}
+.contonts{
+    width: 37vw;
+}
+}

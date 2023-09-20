@@ -1,0 +1,72 @@
+.foooter-main{
+    padding: 4rem 4rem;
+
+}
+.call,.call-num{
+    padding-bottom:2rem ;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 100;
+}
+.a-tags{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.a{
+    color: gray;
+    padding-bottom:1rem ;
+    font-size: .8rem;
+    font-weight: 100;
+    min-width: 17rem;
+}
+.select select{
+    padding: .7rem 1.3rem;
+    border-style: none;
+    background: black;
+    border: 1px solid  ;
+    color: rgb(56, 55, 55);
+}
+.select{
+    padding-top: 2rem;
+}
+.last{
+    font-size: .8rem;
+    font-weight: 100;
+    color: gray;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .foooter-main{
+        padding: 3rem 1.5rem;
+    
+    }
+    .call,.call-num{
+       
+        font-size: .8rem;
+       
+    }
+   
+    .a{
+      
+        font-size: .7rem;
+       
+        min-width: 9rem;
+    }
+    .select select{
+        padding: .7rem 1.3rem;
+        border-style: none;
+        background: black;
+        border: 1px solid  ;
+        color: rgb(56, 55, 55);
+    }
+    .select{
+        padding-top: 2rem;
+    }
+    .last{
+        font-size: .8rem;
+        font-weight: 100;
+        color: gray;
+        margin-top: 1rem;
+    }
+    }
